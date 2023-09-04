@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;700&display=swap');
+
+
+/*--- RESET ---*/
+
+html {
+    font-family: 'Crimson Pro', serif;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h1, p{
+    margin-top: 0;;
+    margin-bottom: 0;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+}

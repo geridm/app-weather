@@ -1,0 +1,107 @@
+.principal {
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(222, 230, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.principal-container {
+    width: 100%;
+    max-width: 28em;
+    background-color: rgba(255, 255, 255, 0.603);
+    padding: 1.5em 0.1em;
+    line-height: 1.7;
+    border-radius: 0.8em;
+}
+
+.container__title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container__subtitle {
+    margin-top: 0.2em;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    margin-top: 0.5em;
+
+}
+
+.container__image {
+    display: inline;
+    width: 40%;
+    padding-left: 1.3rem;
+    height: auto;
+}
+
+.weather {
+    display: flex;
+    padding: 0.3rem;
+    width: 60%;
+}
+
+.weather__description {
+    padding-left: 2.2em;
+    text-transform: capitalize;
+    font-size: 1.4em;
+}
+
+.main__segundo {
+    align-self: center;
+}
+
+.weather__principal-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.2rem;
+}
+
+.weather__principal-label {
+
+    opacity: 0.7;
+
+}
+
+.weather__principal-label-value {
+    font-weight: 500;
+    padding-left: 1em;
+}
+
+.footer {
+    margin-bottom: 1.5em;
+}
+
+.weather__temp {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.weather__btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding: 0.8em 2em;
+    border-radius: 0.5em;
+    color: black;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 100ms ease,
+}
+
+.weather__btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0.8em #0003;
+}
